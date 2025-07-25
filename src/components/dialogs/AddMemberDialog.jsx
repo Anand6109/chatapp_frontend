@@ -50,7 +50,6 @@ const AddMemberDialog = ({ chatId }) => {
     <Dialog open={isAddMember} onClose={closeHandler}>
       <Stack p={"2rem"} width={"20rem"} spacing={"2rem"}>
         <DialogTitle textAlign={"center"}>Add Member</DialogTitle>
-
         <Stack spacing={"1rem"}>
           {isLoading ? (
             <Skeleton />
